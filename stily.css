@@ -1,0 +1,79 @@
+body {
+    background-color: lightblue;
+    height: vh;
+  }
+ 
+header {
+  background-color:whitesmoke;
+  border: 1px solid black;
+  text-align: left;
+}
+.logo {
+  width: 23%;
+  padding: 1%;
+}
+.nav {
+  width: 69%;
+  padding: 1%;
+}
+footer {
+  background-color:whitesmoke;
+  border: 1px solid black;
+  text-align: left;
+}
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+.heroImage {
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.left {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 9%;
+}
+container {
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+  margin: 50px;
+  }
+
+
+
+  /* i am comenting out (is not being read by the browser)this code for you to see the new code i added *3
+.workGrid {
+  display: grid;
+  flex-direction: row;
+ justify-content: left;
+border: 5px solid black;
+}*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  /* remember to add your @media query, hint the columns need to change to rows */
